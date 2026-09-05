@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "header">
+        <h1 class="title"> Movie search</h1>
+        <form action="" class="search-form">
+            <input type="text" class="search-inp">
+            <button class="btn">Пошук</button>
+        </form>
+    <div class="header__controls">
+            <button class="btn-watchlist-toggle">
+                Мій список: <span class="watchlist-counter">0</span>
+            </button>
+        </div>
+
+    </header>
+    <main>
+        <div class="container"> 
+            <h2 class="section-title">Популярні фільми</h2>
+            <div class="movies-grid"></div>
+            <div class="pagination">
+
+            </div>
+        </div>
+    </main>
+    <div class="modal hidden">
+        <div class="modal_overlay"></div>
+        <div class="modal_content">
+            <button class="modal_close">✕</button>
+            <div class="modal_body"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
